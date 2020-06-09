@@ -47,7 +47,20 @@
 		include 'layoutcontent/toppost.php';
 		?>
 		<!--END HOT POST -->
+		<section class="latest-post-area pb-120">
+		<div class="container no-padding">
+			<div class="row">
+				<div class="col-lg-8 post-list">
+					<!-- START LATEST POST -->
+						<?php
+							include 'content/latestpost.php';
+						?>
+						<!-- END LATEST POST -->
+				</div>
+			</div>
 
+		</div>
+		<section>
 	</div>
 
 	<!-- START FOOTER -->

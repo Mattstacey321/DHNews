@@ -65,11 +65,21 @@
 
 						<!-- START TRAVEL AND SPORT POST -->
 						<?php
-						include 'layoutcontent/travelpost.php';
-						include 'layoutcontent/sportpost.php';
+						include 'content/travelpost.php';
+						include 'content/sportpost.php';
 						?>
 						<!-- END TRAVEL AND SPORT POST -->
 					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="sidebars-area">
+						<!-- START ENTERTAIMENT POST -->
+							<?php
+								include 'content/entertainment.php';
+							?>
+						<!-- START ENTERTAIMENT POST -->
+					</div>
+				
 				</div>
 
 			</div>

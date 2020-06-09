@@ -1,4 +1,4 @@
-<?php include 'getdate/get_data_home.php'; ?>
+<?php include 'getdata/get_data_home.php'; ?>
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 

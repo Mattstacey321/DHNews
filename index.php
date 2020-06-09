@@ -56,18 +56,19 @@
 						include 'content/latestpost.php';
 						?>
 						<!-- END LATEST POST -->
-						
-							<!-- Start banner-ads Area -->
-							<div class="col-lg-12 ad-widget-wrap mt-30 mb-30">
-								<img class="img-fluid" src="img/banner-1.png" alt="">
-							</div>
-							<!-- End banner-ads Area -->
 
-							<!-- START TRAVEL -->
-							<?php 
-								include 'layoutcontent/travelpost.php';
-							?>
-							<!-- END TRAVEL -->
+						<!-- Start banner-ads Area -->
+						<div class="col-lg-12 ad-widget-wrap mt-30 mb-30">
+							<img class="img-fluid" src="img/banner-1.png" alt="">
+						</div>
+						<!-- End banner-ads Area -->
+
+						<!-- START TRAVEL AND SPORT POST -->
+						<?php
+						include 'layoutcontent/travelpost.php';
+						include 'layoutcontent/sportpost.php';
+						?>
+						<!-- END TRAVEL AND SPORT POST -->
 					</div>
 				</div>
 

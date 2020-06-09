@@ -70,42 +70,42 @@
 						?>
 						<!-- END TRAVEL AND SPORT POST -->
 					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="sidebars-area">
-						<!-- START ENTERTAIMENT POST -->
-						<?php
-						include 'content/entertainment.php';
-						?>
-						<!-- START ENTERTAIMENT POST -->
+					<div class="col-lg-4">
+						<div class="sidebars-area">
+							<!-- START ENTERTAIMENT POST -->
+							<?php
+							include 'content/entertainment.php';
+							?>
+							<!-- START ENTERTAIMENT POST -->
 
-						<div class="single-sidebar-widget ads-widget">
-							<img class="img-fluid" src="img/banner-3.jpg" alt="">
-						</div>
-
-						<div class="single-sidebar-widget newsletter-widget">
-							<h6 class="title">Thông Báo</h6>
-							<p>
-								Đăng ký để nhận thông báo qua Email.
-							</p>
-							<div class="form-group d-flex flex-row">
-								<div class="col-autos">
-									<div class="input-group">
-										<input class="form-control" placeholder="Địa chỉ Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" type="text">
-									</div>
-								</div>
-								<a href="#" class="bbtns">Đăng ký</a>
+							<div class="single-sidebar-widget ads-widget">
+								<img class="img-fluid" src="img/banner-3.jpg" alt="">
 							</div>
-							<p>
-								Bạn có thể hủy đăng ký chúng tôi bất cứ lúc nào.
-							</p>
-						</div>
 
-						<!-- START FUNPOST POST -->
-						<?php
-						include 'content/funpost.php';
-						?>
-						<!-- START FUNPOST POST -->
+							<div class="single-sidebar-widget newsletter-widget">
+								<h6 class="title">Thông Báo</h6>
+								<p>
+									Đăng ký để nhận thông báo qua Email.
+								</p>
+								<div class="form-group d-flex flex-row">
+									<div class="col-autos">
+										<div class="input-group">
+											<input class="form-control" placeholder="Địa chỉ Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" type="text">
+										</div>
+									</div>
+									<a href="#" class="bbtns">Đăng ký</a>
+								</div>
+								<p>
+									Bạn có thể hủy đăng ký chúng tôi bất cứ lúc nào.
+								</p>
+							</div>
+
+							<!-- START FUNPOST POST -->
+							<?php
+							include 'content/funpost.php';
+							?>
+							<!-- START FUNPOST POST -->
+						</div>
 					</div>
 				</div>
 

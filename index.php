@@ -48,19 +48,31 @@
 		?>
 		<!--END HOT POST -->
 		<section class="latest-post-area pb-120">
-		<div class="container no-padding">
-			<div class="row">
-				<div class="col-lg-8 post-list">
-					<!-- START LATEST POST -->
+			<div class="container no-padding">
+				<div class="row">
+					<div class="col-lg-8 post-list">
+						<!-- START LATEST POST -->
 						<?php
-							include 'content/latestpost.php';
+						include 'content/latestpost.php';
 						?>
 						<!-- END LATEST POST -->
-				</div>
-			</div>
+						
+							<!-- Start banner-ads Area -->
+							<div class="col-lg-12 ad-widget-wrap mt-30 mb-30">
+								<img class="img-fluid" src="img/banner-1.png" alt="">
+							</div>
+							<!-- End banner-ads Area -->
 
-		</div>
-		<section>
+							<!-- START TRAVEL -->
+							<?php 
+								include 'layoutcontent/travelpost.php';
+							?>
+							<!-- END TRAVEL -->
+					</div>
+				</div>
+
+			</div>
+			<section>
 	</div>
 
 	<!-- START FOOTER -->

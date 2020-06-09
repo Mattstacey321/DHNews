@@ -72,3 +72,4 @@ if ($xml_cuoi === false) {
         echo "<br>", $error->message;
     }
 }
+?>
